@@ -60,7 +60,7 @@ a, a:hover {
 }
 
 .DSMOVIE-card {
-    width: 360px;
+    width: 100%;
 }
 
 .DSMOVIE-card img {
@@ -69,12 +69,14 @@ a, a:hover {
 }
 
 .DSMOVIE-card-description {
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--white);
     border-radius: 0 0 8px 8px;
+    justify-content: space-between;
+    min-height: 150px;
 }
 
 .DSMOVIE-card-description h3 {
